@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bab_item"
+    android:padding="5dp"
+    android:background="@color/transparant">
+
+    <TextView
+        android:id="@+id/bab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAB"
+        android:textSize="20px"
+        android:textColor="@color/myDrawerBackground"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        </TextView>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bab"
+        android:text="message"
+        android:textSize="15px"
+        android:textColor="@color/myDrawerBackground">
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_delete"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@android:drawable/ic_menu_delete" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_edit"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/item_delete"
+        android:layout_toStartOf="@+id/item_delete"
+        android:src="@android:drawable/ic_menu_edit" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/myWindowBackground">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/writer_toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/writer_bgsosmed">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/imageView6"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/writer_pp"
+            android:scaleType="centerCrop" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/writer_fulname"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/writer_email"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/twitter"
+                    android:src="@drawable/writer_twitter"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/blogger"
+                    android:src="@drawable/writer_blogger"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/facebook"
+                    android:src="@drawable/writer_fb"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/writer_instagram"
+                    android:scaleType="fitStart"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

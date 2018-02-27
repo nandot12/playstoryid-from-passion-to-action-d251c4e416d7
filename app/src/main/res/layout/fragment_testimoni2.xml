@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/bgcomment"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/imageView6"-->
+            <!--android:src="@drawable/testimoni_rate"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="50dp"-->
+            <!--android:layout_marginBottom="20dp" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="110dp"-->
+            <!--android:background="@drawable/selected_gray"-->
+            <!--android:id="@+id/relativeLayout2"-->
+            <!--android:layout_below="@+id/imageView6"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/testimoni_photo"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:src="@drawable/testimoni_photo"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:layout_marginTop="15dp"-->
+                <!--android:scaleType="centerCrop" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:text="Name"-->
+                <!--android:id="@+id/testimoni_name"-->
+                <!--android:layout_alignTop="@+id/testimoni_photo"-->
+                <!--android:layout_toRightOf="@+id/testimoni_photo"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginBottom="2dp" />-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:id="@+id/line"-->
+                <!--android:layout_below="@+id/testimoni_name"-->
+                <!--android:layout_alignLeft="@+id/testimoni_name"-->
+                <!--android:layout_alignStart="@+id/testimoni_name"-->
+                <!--android:background="@drawable/testimoni_line"-->
+                <!--android:layout_alignRight="@+id/testimoni_name"-->
+                <!--android:layout_alignEnd="@+id/testimoni_name" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+                <!--android:text="title"-->
+                <!--android:id="@+id/testimoni_title"-->
+                <!--android:layout_below="@+id/line"-->
+                <!--android:layout_alignLeft="@+id/line"-->
+                <!--android:layout_alignStart="@+id/line"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="15dp"-->
+                <!--android:layout_marginTop="3dp" />-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_below="@+id/relativeLayout2"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="message"-->
+                <!--android:id="@+id/testimoni_message"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true"-->
+                <!--android:padding="10dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textStyle="normal"-->
+                <!--android:textSize="17dp"-->
+                <!--android:foregroundGravity="top" />-->
+        <!--</ScrollView>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Like"-->
+            <!--android:id="@+id/textView5"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:layout_marginTop="15dp" />-->
+
+    </RelativeLayout>
+
+</LinearLayout>

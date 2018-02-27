@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcomment"
+    tools:context="id.playable.frompassiontoaction.Fragment.FragmentPenulis">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selected_gray"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/photopenulis2"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:scaleType="fitStart"
+                        android:text="EDVAN M KAUTSAR "
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/ig"
+                            android:src="@drawable/iconinstagram"
+                            android:layout_marginLeft="20dp"/>
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/fb"
+                            android:src="@drawable/iconfb"
+                            android:layout_marginLeft="10dp"/>
+                        <ImageView
+                            android:layout_marginTop="20dp"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:id="@+id/blog"
+                            android:src="@drawable/iconwebsite"
+                            android:layout_marginLeft="10dp"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/katapengantar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/katapengntr"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Wassalammualaikum "
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:text="Salam Hormat, "
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="end"
+                android:text="Edvan M Kautsar "
+                android:textColor="@color/white"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

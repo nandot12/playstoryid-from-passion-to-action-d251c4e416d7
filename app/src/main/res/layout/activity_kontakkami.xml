@@ -1,0 +1,317 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+               >
+
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_kontakkami" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/logoutama"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_alignEnd="@+id/login_register"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/iconkontakkami"/>
+
+            <ImageView
+                android:id="@+id/title"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/logoutama"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/nn"
+                android:layout_marginRight="20dp"
+                android:layout_below="@+id/title"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="9dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/phoneicon"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="19dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/contactofficial"/>
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="13dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/notlpnofficial"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"></LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/waicon"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="19dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/whatsapp"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="12dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10sp"
+                                android:src="@drawable/phoneadmin"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/iconemail"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="19dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/email"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="13dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10sp"
+                                android:src="@drawable/emailadmin"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"></LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/iconinstagram"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="19dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/instagram"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="16dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10sp"
+                                android:src="@drawable/instagramid"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"></LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/iconwebsite"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="100dp"
+                                android:layout_height="19dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/website"/>
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="16dp"
+                                android:scaleType="fitStart"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10sp"
+                                android:src="@drawable/alamatwebsite"/>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"></LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/nn"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/playable"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

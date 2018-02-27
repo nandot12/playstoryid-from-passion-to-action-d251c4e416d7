@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ground22"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/iklantouch"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/iklankeluar"
+        android:src="@drawable/cross"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/iklanwebsite"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/touchtowebsite"/>
+
+</RelativeLayout>

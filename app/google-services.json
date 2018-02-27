@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044529251512",
+    "project_id": "from-passion-to-action"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044529251512:android:e7d86d1e19031a48",
+        "android_client_info": {
+          "package_name": "id.playable.frompassiontoaction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044529251512-msq8le4pq8c5ocp9dgcgf49gr4ijnbko.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1044529251512-4ob4ejv1mej0csd8klfghphfinaq8da2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.playable.frompassiontoaction",
+            "certificate_hash": "00288fabc84fd30f915426d9e3067348edf087c4"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ0roweEvCUbKqBpGUc2CMardIWLrB_rY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

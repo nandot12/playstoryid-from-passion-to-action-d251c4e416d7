@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                tools:context="id.playable.frompassiontoaction.KodePremiumActivity"
+                >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:id="@+id/layout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/edtcodepremium"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/coloum"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="5dp"
+            android:layout_weight="0.3"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Masukkan Kode Premium"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="5dp"
+            android:textSize="16sp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:layout_marginRight="5dp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/checkmasuk"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/edtcodepremium"
+            android:layout_height="40dp"
+            android:layout_weight="0.7"
+            android:src="@drawable/masuk"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/getkodepromo"
+        android:layout_below="@+id/layout"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dapatkankode"/>
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/logoutama"
+        android:layout_width="130dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo2" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fontcodepremium"
+        android:layout_below="@+id/logoutama"
+        android:layout_alignStart="@+id/logoutama" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_password"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skipkode"
+        android:src="@drawable/penjelasan"/>
+
+
+    <ImageView
+        android:id="@+id/skipkode"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:src="@drawable/masuktanpakodepremium"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

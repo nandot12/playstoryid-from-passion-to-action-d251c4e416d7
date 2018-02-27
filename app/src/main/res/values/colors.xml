@@ -1,0 +1,29 @@
+<resources>
+
+    <!--
+        Check Android Theme colors for color reference:
+        https://developer.android.com/training/material/images/ThemeColors.png
+
+        Refer also to Color palette for the UI colors you should use:
+        http://www.google.com/design/spec/style/color.html#color-ui-color-palette
+    -->
+
+    <color name="myAccentColor">#FF4081</color>
+    <color name="myDrawerBackground">#ffffff</color>
+    <color name="myWindowBackground">#FFF</color>
+
+    <color name="utama">#0f153a</color>
+
+    <color name="tabsScrollColor">#ff005ac5</color>
+
+    x
+    <color name="white">#ffffff</color>
+    <color name="playerTimeremainingColor">@color/white</color>
+    <color name="playerBabNameColor">@color/white</color>
+    <color name="playerBabDescColor">@color/white</color>
+    <color name="transparant">#00000000</color>
+
+    <drawable name="selected_gray">#2c000000</drawable>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

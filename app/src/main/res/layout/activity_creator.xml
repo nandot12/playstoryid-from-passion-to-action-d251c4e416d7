@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/creator_title"
+        android:src="@drawable/creator_title"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/creator_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Writer"
+            android:id="@+id/writer_tv"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/writer_btn"
+            android:background="@drawable/creator_iconwiter"
+            android:layout_below="@+id/writer_tv"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Voice Over"
+            android:id="@+id/voiceover_tv"
+            android:layout_below="@+id/writer_btn"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/voiceover_btn"
+            android:background="@drawable/creator_iconvoice"
+            android:layout_below="@+id/voiceover_tv"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Editor"
+            android:id="@+id/editor_tv"
+            android:layout_below="@+id/voiceover_btn"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp" />
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/editor_btn"
+            android:background="@drawable/creator_iconedit"
+            android:layout_below="@+id/editor_tv"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Developer"
+            android:id="@+id/developer_tv"
+            android:layout_below="@+id/editor_btn"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/developer_btn"
+            android:background="@drawable/creator_icondeveloper"
+            android:layout_below="@+id/developer_tv"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/writer_btn"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/creator_line"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:src="@drawable/creator_line"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/voiceover_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="30dp"
+            android:src="@drawable/creator_line"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/editor_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+</LinearLayout>

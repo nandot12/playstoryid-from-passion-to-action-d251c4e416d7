@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="id.playable.frompassiontoaction">
+
+    <!-- Permission: Writing to SDCard -->
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="id.playable.frompassiontoaction.SplashScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="id.playable.frompassiontoaction.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.BookmarkActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.CreatorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.WriterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.VoiceoverActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name="id.playable.frompassiontoaction.DeskPembelianActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.EditorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.PustakaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.TestimoniActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.ResetActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="id.playable.frompassiontoaction.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="id.playable.frompassiontoaction.components.MusicService"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="id.playable.frompassiontoaction.VideoAuthorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity
+            android:name="id.playable.frompassiontoaction.ListAudioActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="id.playable.frompassiontoaction.KodePremiumActivity"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity android:name="id.playable.frompassiontoaction.KontakActivity">
+        </activity>
+    </application>
+
+</manifest>

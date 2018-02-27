@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Profil Book"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/bgpp"
+        android:textSize="21sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:id="@+id/titleprofilbook"
+        android:textColor="@android:color/white"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        app:tabTextColor="@android:color/white"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabIndicatorColor="@android:color/white"
+        android:layout_below="@+id/titleprofilbook"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bgmenu"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_below="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="37dp"-->
+        <!--android:id="@+id/title"-->
+        <!--android:src="@drawable/pb_title"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/title"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:id="@+id/relativeLayout">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="176dp"-->
+            <!--android:id="@+id/pb_header"-->
+            <!--android:src="@drawable/profile_header"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="false" />-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_below="@+id/relativeLayout"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:background="@drawable/md_header">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:src="@drawable/md_title" />-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/pb_creator"-->
+            <!--android:background="@drawable/md_icon_creator"-->
+            <!--android:layout_below="@+id/imageView"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_marginRight="50dp"-->
+            <!--android:layout_marginTop="30dp" />-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/pb_testimoni"-->
+            <!--android:background="@drawable/md_icon_testimoni"-->
+            <!--android:focusableInTouchMode="false"-->
+            <!--android:layout_below="@+id/imageView"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:layout_marginTop="30dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+            <!--android:text="Creator"-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="14sp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_below="@+id/pb_creator"-->
+            <!--android:layout_alignLeft="@+id/pb_creator"-->
+            <!--android:layout_alignStart="@+id/pb_creator"-->
+            <!--android:layout_alignRight="@+id/pb_creator"-->
+            <!--android:layout_alignEnd="@+id/pb_creator"-->
+            <!--android:layout_marginTop="10dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+            <!--android:text="Testimoni"-->
+            <!--android:id="@+id/textView4"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="14sp"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:layout_alignRight="@+id/pb_testimoni"-->
+            <!--android:layout_alignEnd="@+id/pb_testimoni"-->
+            <!--android:layout_below="@+id/pb_testimoni"-->
+            <!--android:layout_alignLeft="@+id/pb_testimoni"-->
+            <!--android:layout_alignStart="@+id/pb_testimoni"-->
+            <!--android:layout_marginTop="10dp" />-->
+
+    <!--</RelativeLayout>-->
+
+</RelativeLayout>
